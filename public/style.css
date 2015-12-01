@@ -41,8 +41,23 @@ footer {
   footer .bar {
     overflow: hidden;
     padding: 9px; }
+  footer .progress {
+    cursor: pointer;
+  }
   footer .progress-bar {
-    transition: none !important; }
+    transition: none !important; 
+    pointer-events: none;
+  }
+  footer #footer-time {
+    padding: 9px;
+  }
+
 
 .album img {
   height: 300px; }
+
+.shuffleOn {
+  color: rgb(70,220,255);
+}
+
+
